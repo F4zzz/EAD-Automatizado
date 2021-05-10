@@ -12,10 +12,7 @@ def entar(aula):
     time.sleep(0.5)
     pyautogui.hotkey('ctrl', 'd')
     time.sleep(0.5)
-    if pyautogui.locateOnScreen('entrar.png', confidence=0.7) != None:
-        pyautogui.click('entrar.png')
-    else:
-        pyautogui.click(x=1356, y=589)
+    pyautogui.click(x=1356, y=589)
 
 semana = datetime.now().weekday()
 horas = datetime.now().hour
