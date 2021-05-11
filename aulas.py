@@ -58,8 +58,6 @@ elif semana == 4:
 # Sabado/Domingo:
 elif semana == 5 or semana == 6:
     print(f'Rlxxx, a gnt tá no Fim de Semana... Não tem aula...')
-# Fora de Horário:
-else:
-    print('A aula ainda não começou!')
+
 
 input('')
